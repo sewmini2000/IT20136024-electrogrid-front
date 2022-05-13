@@ -56,7 +56,8 @@ function loadCustomer(url) {
 }
 
 function deleteitem(id) {
-  $.ajax({
+ if(confirm('Are You Sure You Want To Delete This Customer ?')){
+    $.ajax({
     type: 'DELETE',
     url: 'http://localhost:8080/ElectroGrid/rest/customers/' + id,
     dataType: 'json',
@@ -64,8 +65,8 @@ function deleteitem(id) {
       loadCustomer('http://localhost:8080/ElectroGrid/rest/customers')
     }
   });
+  }
 }
-
 function getAUser(url) {
   let searchParams = new URLSearchParams(window.location.search)
   let id = searchParams.get('id')
