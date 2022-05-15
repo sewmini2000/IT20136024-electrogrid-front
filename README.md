@@ -30,6 +30,9 @@
 
 **Server Repo Link** : [https://github.com/KavinduPerera-Kabi/ElectroGrid](https://github.com/KavinduPerera-Kabi/ElectroGrid)
 
-
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/89043653/168443602-29785548-3eff-4589-a5d0-20ec9baca3ed.png)
+
+![image](https://user-images.githubusercontent.com/89043653/168485736-011ca2f2-924c-42d1-852e-8b5bcf671daa.png)
+
